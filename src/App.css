@@ -1,0 +1,36 @@
+/* styles applied to the parent div */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+/* styles for wrapper div */
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 400px;
+}
+
+/* styles for button */
+
+.pickerButton {
+  background-color: #0a0a23;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  cursor: pointer;
+}
+
+.pickerButton:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
